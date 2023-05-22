@@ -47,3 +47,5 @@ This is very important to remember... **methods are called on behalf of an objec
 
 >>> Go [up](#classes)
 
+Class attributes are most often addressed with 'dot' notation, i.e., \<class\>dot\<attribute\>. The other way to access attributes (variables) is to use `getattr` and `setattr` functions.
+
