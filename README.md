@@ -46,7 +46,7 @@ Because an object is a very useful culmination of all these terms:
  - Metaprograming
 
 ## *Classes*
-Click [here](#class.md)
+Click [here](/class.md#classes)
 
 
 A *class* expresses an idea; it's a blueprint or recipe for an instance. *Classes* describe attributes and functionalities together to represent and idea as accurately as possible.
