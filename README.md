@@ -10,7 +10,7 @@ To collect notes taken while studying Python's advanced concepts.
  - metaclasses
 ------------------------------------------------------------- 
  
-**OOP** (*Object-Oriented Programming*)
+## **OOP** (*Object-Oriented Programming*)
 
 OOP is s an evolution of good design practices that go back to the very beginning of computer programming.
 
@@ -18,7 +18,7 @@ It allows programmers to model...
  - Entities representing real-life objects.
  - Objects in order to solve real-life problems in an efficient, comfortable, extendable, and well-structured manner.
 
-**Definitions**
+## **Definitions**
  - *class* -- An idea, blueprint, or recipe for an instance.
  - *instance* -- An instantiation of the class; very often used interchangeably with the term ‘object’.
  - *object* -- Python's representation of data and methods; objects could be aggregates of instances.
@@ -45,7 +45,13 @@ Because an object is a very useful culmination of all these terms:
  - Object persistence
  - Metaprograming
 
+## *Classes*
 
+```
+class Duck:
+    def __init__(self, height, weight, sex):
+
+````
 
 
 
