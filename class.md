@@ -1,5 +1,5 @@
 ## *Classes*
-*Back to [README](/README.md)*
+>>> *Back to [README](/README.md)*
 
 
 A *class* expresses an idea; it's a blueprint or recipe for an instance. *Classes* describe attributes and functionalities together to represent and idea as accurately as possible.
@@ -45,5 +45,5 @@ It is said that methods are the 'callable attributes' of Python objects. By 'cal
 
 This is very important to remember... **methods are called on behalf of an object and are usually executed on object data.**
 
-Go [up](#classes)
+>>> Go [up](#classes)
 
