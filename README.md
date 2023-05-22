@@ -1,2 +1,2 @@
 # My goal for this Repo
-This is aiming to collect/condense all my notes I have taken while going deeper studying Python's advanced concepts.
+This is aiming to collect/condense my notes I have taken while going deeper studying Python's advanced concepts.
