@@ -49,3 +49,19 @@ This is very important to remember... **methods are called on behalf of an objec
 
 Class attributes are most often addressed with 'dot' notation, i.e., \<class\>dot\<attribute\>. The other way to access attributes (variables) is to use `getattr` and `setattr` functions.
 
+In our example, there are the following attributes:
+ - **variables**: `self.height`, `self.weight`, `self.sex` --containing different values for each object.
+ - **methods**: `__init__`, `walk`, `quack` --common to all objects so far.
+
+ Examples:
+  - To call a method, issue: `drake.quack()`;
+  - To access and attribute, issue: `print(duckling.height)`.
+
+  If you run the code, you'll get the following example:
+  ```
+  Quack!
+  10
+  ```
+
+  A **type** is one of the most fundamental and abstract terms of Python:
+   - 
