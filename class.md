@@ -65,4 +65,7 @@ In our example, there are the following attributes:
 
 A **type** is one of the most fundamental and abstract terms of Python:
    - is the foremost type that any class can be inherited from;
-   - as a result, if you're looking for the type of class, then *type* is returned
+   - as a result, if you're looking for the type of class, then *type* is returned;
+   - in all other cases, it refers to the class that was used to instantiate the object; it's a general term describing the type/kind of any object;
+   - it's the name of a very handy Python function that returns the class information about the objects passed as arguments to that function;
+   - it returns a new type object when `type()` is called with three arguments.
