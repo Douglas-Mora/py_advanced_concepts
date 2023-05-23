@@ -47,3 +47,4 @@ Because an object is a very useful culmination of all these terms:
 
 ## [Classes](/class.md#classes)
 
+## [Variables](/variables.md#)

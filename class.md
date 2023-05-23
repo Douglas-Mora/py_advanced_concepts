@@ -69,3 +69,24 @@ A **type** is one of the most fundamental and abstract terms of Python:
    - in all other cases, it refers to the class that was used to instantiate the object; it's a general term describing the type/kind of any object;
    - it's the name of a very handy Python function that returns the class information about the objects passed as arguments to that function;
    - it returns a new type object when `type()` is called with three arguments.
+
+Python comes with a number of built-in types, like numbers, strings, lists, etc., that are used to build more complex types. Creating a new class creates a new type of object, allowing new instances of that type to be made.
+
+Information about an object's class is contained in `__class__`.
+
+|When running...|It prints:|
+|---|---|
+|`print(Duck.__class__)`|`<class 'type'>`|
+|`print(duckling.__class__)`|`<class '__main__.Duck'>`|
+|`print(duckling.sex.__class__)`|`<class 'str'>`|
+|`print(duckling.quack.__class__)`|`<class 'method'>`|
+
+So...
+ - the `Duck` class is of the 'type' type;
+ - the `duckling` object is an instance type built on the basis of the `Duck` class, and residing in the '\_\_main\_\_' scope;
+ - the `duckling.sex` is an attribute of the 'str' type;
+ - `duckling.quack` is an attribute of the 'method' type.
+
+
+
+>>> Next... [Variables](variables.md)
