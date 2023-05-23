@@ -64,4 +64,5 @@ In our example, there are the following attributes:
   ```
 
 A **type** is one of the most fundamental and abstract terms of Python:
-   - 
+   - is the foremost type that any class can be inherited from;
+   - as a result, if you're looking for the type of class, then *type* is returned
