@@ -63,5 +63,5 @@ In our example, there are the following attributes:
   10
   ```
 
-  A **type** is one of the most fundamental and abstract terms of Python:
+A **type** is one of the most fundamental and abstract terms of Python:
    - 
